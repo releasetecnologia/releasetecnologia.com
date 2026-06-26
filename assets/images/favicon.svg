@@ -1,4 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#38bdf8"/>
-  <path d="M9 22V10h3.7c2.5 0 4 1.2 4 3.1 0 1.3-.7 2.3-1.8 2.8L18.5 22h-2.8l-2.5-4H11.5v4H9zm2.8-6h.9c.9 0 1.5-.4 1.5-1.1s-.6-1.1-1.5-1.1h-.9v2.2zM19 22V10h3.8v12H19z" fill="#0a0e17"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="favicon-mark">
+      <path d="M0 0h32v32H6.5Q0 32 0 25.5V0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#favicon-mark)">
+    <rect width="32" height="8" fill="#550909"/>
+    <rect y="8" width="32" height="8" fill="#8a1010"/>
+    <rect y="16" width="32" height="8" fill="#c41616"/>
+    <rect y="24" width="32" height="8" fill="#ee1c1c"/>
+  </g>
+  <path fill="#fff" d="M8 6h8.5c3.5 0 5.6 1.8 5.6 4.7 0 1.9-1 3.3-2.6 4L22 26h-4.8l-2.9-5H12v5H8V6zm4.2 8h3.5c1.6 0 2.4-.7 2.4-1.9s-.8-1.9-2.4-1.9h-3.5v3.8z"/>
 </svg>
